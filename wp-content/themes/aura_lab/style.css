@@ -10,3 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: aura-lab
 Tags: e-commerce, custom-menu, custom-logo
 */
+
+.top-bar{
+    background-color: red;
+    height: 70px;
+}
