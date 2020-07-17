@@ -27,3 +27,14 @@ function aura_lab_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'aura_lab_scripts');
+
+function aura_lab_config()
+{
+    register_nav_menus(
+        array(
+            'aura_lab_main_menu' => 'Aura Lab Menu',
+        )
+    );
+}
+
+add_action('after_setup_theme', 'aura_lab_config', 0);

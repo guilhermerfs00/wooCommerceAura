@@ -23,3 +23,16 @@ Tags: e-commerce, custom-menu, custom-logo
 .second-column {
     background-color: yellow;
 }
+
+.main-menu ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0;
+}
