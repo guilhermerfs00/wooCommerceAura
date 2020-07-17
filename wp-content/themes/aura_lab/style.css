@@ -12,6 +12,14 @@ Tags: e-commerce, custom-menu, custom-logo
 */
 
 .top-bar{
-    background-color: red;
+    background-color: blue;
     height: 70px;
+}
+
+.brand {
+    background-color: green;
+}
+
+.second-column {
+    background-color: yellow;
 }
