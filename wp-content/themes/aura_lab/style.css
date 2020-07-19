@@ -11,22 +11,8 @@ Text Domain: aura-lab
 Tags: e-commerce, custom-menu, custom-logo
 */
 
-.top-bar{
-    background-color: blue;
-    height: 70px;
-}
-
-.brand {
-    background-color: green;
-}
-
-.second-column {
-    background-color: yellow;
-}
-
-.main-menu ul li {
-    display: inline;
-    margin: 0 5px 0 0;
+.main-menu {
+    padding: 0;
 }
 
 .main-menu ul {
@@ -35,4 +21,34 @@ Tags: e-commerce, custom-menu, custom-logo
     font-size: 18px;
     font-weight: 500;
     border-radius: 0;
+}
+
+.main-menu ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.footer-menu ul, .footer-widgets ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-menu ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.footer-menu ul li:last-child {
+    margin: 0;
+}
+
+.footer-menu ul li a {
+    color: #939393;
+    text-decoration: none;
+}
+
+.footer-menu ul li.current-menu-item a{
+    color: #ff9292;
 }

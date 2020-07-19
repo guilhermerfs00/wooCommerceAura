@@ -33,6 +33,7 @@ function aura_lab_config()
     register_nav_menus(
         array(
             'aura_lab_main_menu' => 'Aura Lab Menu',
+            'aura_lab_footer_menu' => 'Aura Footer Menu',
         )
     );
 }

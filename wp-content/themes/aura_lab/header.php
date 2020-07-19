@@ -12,7 +12,7 @@
     <div id="page" class="site">
         <header>
             <section class="search">
-                <div class="containe">
+                <div class="container">
                     Pesquisar
                 </div>
             </section>
