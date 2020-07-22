@@ -47,15 +47,17 @@ function aura_lab_config()
             'min_columns'       => 1,
             'max_columns'       => 1,
         )
-    ) );
+    ));
 
-    add_theme_support( 'wc-product-gallery-zoom');
-    add_theme_support( 'wc-product-gallery-lightbox');
-    add_theme_support( 'wc-product-gallery-slider');
+    add_theme_support('wc-product-gallery-zoom');
+    add_theme_support('wc-product-gallery-lightbox');
+    add_theme_support('wc-product-gallery-slider');
 
-    if ( ! isset( $content_width ) ) {
+    if (!isset($content_width)) {
         $content_width = 600;
     }
 }
 
 add_action('after_setup_theme', 'aura_lab_config', 0);
+
+require get_template_directory() . '/inc/wc-modifications.php';

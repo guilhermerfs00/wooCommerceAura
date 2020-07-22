@@ -1,0 +1,2 @@
+2020-07-22T16:38:35+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wc_aura/wp-content/themes/aura_lab/inc/class-tgm-plugin-activation.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wc_aura\wp-content\themes\aura_lab\functions.php on line 13
+
