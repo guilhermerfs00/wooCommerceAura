@@ -1,2 +1,10 @@
 2020-07-22T16:38:35+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\wc_aura/wp-content/themes/aura_lab/inc/class-tgm-plugin-activation.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wc_aura\wp-content\themes\aura_lab\functions.php on line 13
 
+2020-07-22T19:02:50+00:00 CRITICAL Uncaught Error: Call to undefined function twentyseventeen_get_svg() in C:\xampp\htdocs\wc_aura\wp-content\themes\aura_lab\search.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wc_aura\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wc_aura\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wc_aura\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wc_aura\wp-content\themes\aura_lab\search.php on line 6
+

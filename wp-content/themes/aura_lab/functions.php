@@ -26,14 +26,19 @@ function aura_lab_scripts()
     );
 }
 
+// Google Fonts
+wp_enqueue_style('rajdhani', 'https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Seaweed+Script');
+
 add_action('wp_enqueue_scripts', 'aura_lab_scripts');
 
 function aura_lab_config()
 {
+    require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+
     register_nav_menus(
         array(
-            'aura_lab_main_menu' => 'Aura Lab Menu',
-            'aura_lab_footer_menu' => 'Aura Footer Menu',
+            'aura_lab_main_menu'     => esc_html__('Aura Lab Menu', 'aura-lab'),
+            'aura_lab_footer_menu' => esc_html__('Aura Footer Menu', 'aura-lab')
         )
     );
 
