@@ -1,4 +1,8 @@
 <?php
+
+require_once get_template_directory() . '/inc/customizer.php';
+
+
 function aura_lab_scripts()
 {
     wp_enqueue_script(
