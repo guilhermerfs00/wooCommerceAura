@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="copyrigth col12 col-md-6">
-                    <p><?php echo get_theme_mod('set_copyright'); ?></p>
+                    <p><?php echo get_theme_mod('set_copyright', 'Copyright'); ?></p>
                 </div>
                 <div class="footer-menu col-12 col-md-6 txt-left text-md-right">
                     <?php

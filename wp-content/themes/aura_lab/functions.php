@@ -33,6 +33,11 @@ function aura_lab_scripts()
 // Google Fonts
 wp_enqueue_style('rajdhani', 'https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Seaweed+Script');
 
+// Flexlider javascript and CSS files
+wp_enqueue_script('flexslider-min-js', get_template_directory_uri() . '/inc/flexslider/jquery.flexslider-min.js', array('jquery'), '', true);
+wp_enqueue_style('flexslider-css', get_template_directory_uri() . '/inc/flexslider/flexslider.css', array(), '', 'all');
+wp_enqueue_script('flexslider-js', get_template_directory_uri() . '/inc/flexslider/flexslider.js', array('jquery'), '', true);
+
 add_action('wp_enqueue_scripts', 'aura_lab_scripts');
 
 function aura_lab_config()
@@ -68,6 +73,13 @@ function aura_lab_config()
         'flex-width'  => true,
         'flex-height' => true,
     ));
+
+    add_theme_support( 'post-thumbnails' );
+    add_image_size( 'aura-lab-slider', 1920, 800, array( 'center', 'center' ) );
+    add_image_size( 'aura-lab-blog', 960, 640, array( 'center', 'center' ) );
+    if ( ! isset( $content_width ) ) {
+        $content_width = 600;
+    }
 
 
     if (!isset($content_width)) {
