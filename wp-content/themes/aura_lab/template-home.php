@@ -106,7 +106,7 @@ get_header(); ?>
             ?>
                 <section class="deal-of-the-week woocommerce">
                     <div class="container">
-                        <div class="section-title">
+                        <div class="section-title-deal-of-the-week">
                             <h2><?php echo esc_html(get_theme_mod('set_deal_title', __('Deal of the Week', 'aura-lab'))); ?></h2>
                         </div>
                         <div class="row d-flex align-items-center">
