@@ -43,10 +43,10 @@
                                             <ul class="navbar-nav float-left">
                                                 <?php if (is_user_logged_in()) : ?>
                                                     <li>
-                                                        <a class="nav-link" href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>"><?php esc_html_e('Minha conta', 'aura-lab') ?></a>
+                                                        <a class="nav-link" href="<?php echo esc_url(get_permalink(get_option('woocommerce_myaccount_page_id'))); ?>"><?php esc_html_e('My Account', 'fancy-lab') ?></a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link" href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))); ?>"><?php esc_html_e('Sair', 'aura-lab'); ?></a>
+                                                        <a class="nav-link" href="<?php echo esc_url(wp_logout_url(get_permalink(get_option('woocommerce_myaccount_page_id')))); ?>"><?php esc_html_e('Logout', 'fancy-lab'); ?></a>
                                                     </li>
                                                 <?php else : ?>
                                                     <li>
